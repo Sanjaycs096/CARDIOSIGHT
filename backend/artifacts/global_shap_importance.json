@@ -1,0 +1,1390 @@
+{
+  "Cath": [
+    {
+      "feature": "Typical Chest Pain",
+      "raw_feature": "num__Typical Chest Pain",
+      "mean_abs_shap": 1.71169
+    },
+    {
+      "feature": "Tinversion",
+      "raw_feature": "num__Tinversion",
+      "mean_abs_shap": 0.79083
+    },
+    {
+      "feature": "DM",
+      "raw_feature": "num__DM",
+      "mean_abs_shap": 0.78415
+    },
+    {
+      "feature": "ESR",
+      "raw_feature": "num__ESR",
+      "mean_abs_shap": 0.74161
+    },
+    {
+      "feature": "Age",
+      "raw_feature": "num__Age",
+      "mean_abs_shap": 0.68257
+    },
+    {
+      "feature": "TG",
+      "raw_feature": "num__TG",
+      "mean_abs_shap": 0.6267
+    },
+    {
+      "feature": "Nonanginal_N",
+      "raw_feature": "cat__Nonanginal_N",
+      "mean_abs_shap": 0.60816
+    },
+    {
+      "feature": "FH",
+      "raw_feature": "num__FH",
+      "mean_abs_shap": 0.60652
+    },
+    {
+      "feature": "Neut",
+      "raw_feature": "num__Neut",
+      "mean_abs_shap": 0.60494
+    },
+    {
+      "feature": "PR",
+      "raw_feature": "num__PR",
+      "mean_abs_shap": 0.54727
+    },
+    {
+      "feature": "LDL",
+      "raw_feature": "num__LDL",
+      "mean_abs_shap": 0.47841
+    },
+    {
+      "feature": "HTN",
+      "raw_feature": "num__HTN",
+      "mean_abs_shap": 0.45587
+    },
+    {
+      "feature": "Lung rales_N",
+      "raw_feature": "cat__Lung rales_N",
+      "mean_abs_shap": 0.44081
+    },
+    {
+      "feature": "BP",
+      "raw_feature": "num__BP",
+      "mean_abs_shap": 0.43099
+    },
+    {
+      "feature": "Sex_Male",
+      "raw_feature": "cat__Sex_Male",
+      "mean_abs_shap": 0.41858
+    },
+    {
+      "feature": "Diastolic Murmur_N",
+      "raw_feature": "cat__Diastolic Murmur_N",
+      "mean_abs_shap": 0.40589
+    },
+    {
+      "feature": "HB",
+      "raw_feature": "num__HB",
+      "mean_abs_shap": 0.34786
+    },
+    {
+      "feature": "LVH_N",
+      "raw_feature": "cat__LVH_N",
+      "mean_abs_shap": 0.34059
+    },
+    {
+      "feature": "BBB_N",
+      "raw_feature": "cat__BBB_N",
+      "mean_abs_shap": 0.33609
+    },
+    {
+      "feature": "Airway disease_N",
+      "raw_feature": "cat__Airway disease_N",
+      "mean_abs_shap": 0.3255
+    },
+    {
+      "feature": "St Elevation",
+      "raw_feature": "num__St Elevation",
+      "mean_abs_shap": 0.32423
+    },
+    {
+      "feature": "Lymph",
+      "raw_feature": "num__Lymph",
+      "mean_abs_shap": 0.31942
+    },
+    {
+      "feature": "Poor R Progression_N",
+      "raw_feature": "cat__Poor R Progression_N",
+      "mean_abs_shap": 0.31664
+    },
+    {
+      "feature": "CVA_N",
+      "raw_feature": "cat__CVA_N",
+      "mean_abs_shap": 0.31268
+    },
+    {
+      "feature": "Sex_Female",
+      "raw_feature": "cat__Sex_Female",
+      "mean_abs_shap": 0.30241
+    },
+    {
+      "feature": "K",
+      "raw_feature": "num__K",
+      "mean_abs_shap": 0.27765
+    },
+    {
+      "feature": "Dyspnea_N",
+      "raw_feature": "cat__Dyspnea_N",
+      "mean_abs_shap": 0.25595
+    },
+    {
+      "feature": "HDL",
+      "raw_feature": "num__HDL",
+      "mean_abs_shap": 0.2519
+    },
+    {
+      "feature": "Atypical_N",
+      "raw_feature": "cat__Atypical_N",
+      "mean_abs_shap": 0.23052
+    },
+    {
+      "feature": "Systolic Murmur_N",
+      "raw_feature": "cat__Systolic Murmur_N",
+      "mean_abs_shap": 0.19824
+    },
+    {
+      "feature": "BMI",
+      "raw_feature": "num__BMI",
+      "mean_abs_shap": 0.19346
+    },
+    {
+      "feature": "Dyspnea_Y",
+      "raw_feature": "cat__Dyspnea_Y",
+      "mean_abs_shap": 0.19029
+    },
+    {
+      "feature": "CR",
+      "raw_feature": "num__CR",
+      "mean_abs_shap": 0.18885
+    },
+    {
+      "feature": "Na",
+      "raw_feature": "num__Na",
+      "mean_abs_shap": 0.18838
+    },
+    {
+      "feature": "PLT",
+      "raw_feature": "num__PLT",
+      "mean_abs_shap": 0.18648
+    },
+    {
+      "feature": "Q Wave",
+      "raw_feature": "num__Q Wave",
+      "mean_abs_shap": 0.17275
+    },
+    {
+      "feature": "WBC",
+      "raw_feature": "num__WBC",
+      "mean_abs_shap": 0.12499
+    },
+    {
+      "feature": "Atypical_Y",
+      "raw_feature": "cat__Atypical_Y",
+      "mean_abs_shap": 0.10165
+    },
+    {
+      "feature": "BUN",
+      "raw_feature": "num__BUN",
+      "mean_abs_shap": 0.09471
+    },
+    {
+      "feature": "St Depression",
+      "raw_feature": "num__St Depression",
+      "mean_abs_shap": 0.07902
+    },
+    {
+      "feature": "CHF_N",
+      "raw_feature": "cat__CHF_N",
+      "mean_abs_shap": 0.06808
+    },
+    {
+      "feature": "CRF_N",
+      "raw_feature": "cat__CRF_N",
+      "mean_abs_shap": 0.06138
+    },
+    {
+      "feature": "Edema",
+      "raw_feature": "num__Edema",
+      "mean_abs_shap": 0.05897
+    },
+    {
+      "feature": "FBS",
+      "raw_feature": "num__FBS",
+      "mean_abs_shap": 0.05229
+    },
+    {
+      "feature": "EX-Smoker",
+      "raw_feature": "num__EX-Smoker",
+      "mean_abs_shap": 0.05197
+    },
+    {
+      "feature": "Thyroid Disease_N",
+      "raw_feature": "cat__Thyroid Disease_N",
+      "mean_abs_shap": 0.05041
+    },
+    {
+      "feature": "DLP_N",
+      "raw_feature": "cat__DLP_N",
+      "mean_abs_shap": 0.03516
+    },
+    {
+      "feature": "Weak Peripheral Pulse_N",
+      "raw_feature": "cat__Weak Peripheral Pulse_N",
+      "mean_abs_shap": 0.03194
+    },
+    {
+      "feature": "Systolic Murmur_Y",
+      "raw_feature": "cat__Systolic Murmur_Y",
+      "mean_abs_shap": 0.02941
+    },
+    {
+      "feature": "Obesity_Y",
+      "raw_feature": "cat__Obesity_Y",
+      "mean_abs_shap": 0.02931
+    },
+    {
+      "feature": "Nonanginal_Y",
+      "raw_feature": "cat__Nonanginal_Y",
+      "mean_abs_shap": 0.02868
+    },
+    {
+      "feature": "LVH_Y",
+      "raw_feature": "cat__LVH_Y",
+      "mean_abs_shap": 0.02782
+    },
+    {
+      "feature": "DLP_Y",
+      "raw_feature": "cat__DLP_Y",
+      "mean_abs_shap": 0.01822
+    },
+    {
+      "feature": "Lung rales_Y",
+      "raw_feature": "cat__Lung rales_Y",
+      "mean_abs_shap": 0.01527
+    },
+    {
+      "feature": "Diastolic Murmur_Y",
+      "raw_feature": "cat__Diastolic Murmur_Y",
+      "mean_abs_shap": 0.01368
+    },
+    {
+      "feature": "Current Smoker",
+      "raw_feature": "num__Current Smoker",
+      "mean_abs_shap": 0.0125
+    },
+    {
+      "feature": "Obesity_N",
+      "raw_feature": "cat__Obesity_N",
+      "mean_abs_shap": 0.01018
+    },
+    {
+      "feature": "Airway disease_Y",
+      "raw_feature": "cat__Airway disease_Y",
+      "mean_abs_shap": 0.00987
+    },
+    {
+      "feature": "BBB_LBBB",
+      "raw_feature": "cat__BBB_LBBB",
+      "mean_abs_shap": 0.00762
+    },
+    {
+      "feature": "Poor R Progression_Y",
+      "raw_feature": "cat__Poor R Progression_Y",
+      "mean_abs_shap": 0.00681
+    },
+    {
+      "feature": "CVA_Y",
+      "raw_feature": "cat__CVA_Y",
+      "mean_abs_shap": 0.00672
+    },
+    {
+      "feature": "BBB_RBBB",
+      "raw_feature": "cat__BBB_RBBB",
+      "mean_abs_shap": 0.00593
+    },
+    {
+      "feature": "LowTH Ang_N",
+      "raw_feature": "cat__LowTH Ang_N",
+      "mean_abs_shap": 0.00517
+    },
+    {
+      "feature": "Function Class",
+      "raw_feature": "num__Function Class",
+      "mean_abs_shap": 0.00413
+    },
+    {
+      "feature": "Thyroid Disease_Y",
+      "raw_feature": "cat__Thyroid Disease_Y",
+      "mean_abs_shap": 0.00168
+    },
+    {
+      "feature": "CRF_Y",
+      "raw_feature": "cat__CRF_Y",
+      "mean_abs_shap": 0.00142
+    },
+    {
+      "feature": "Weak Peripheral Pulse_Y",
+      "raw_feature": "cat__Weak Peripheral Pulse_Y",
+      "mean_abs_shap": 0.0008
+    },
+    {
+      "feature": "CHF_Y",
+      "raw_feature": "cat__CHF_Y",
+      "mean_abs_shap": 0.00031
+    },
+    {
+      "feature": "LowTH Ang_Y",
+      "raw_feature": "cat__LowTH Ang_Y",
+      "mean_abs_shap": 0.0
+    }
+  ],
+  "LAD": [
+    {
+      "feature": "Typical Chest Pain",
+      "raw_feature": "num__Typical Chest Pain",
+      "mean_abs_shap": 0.08091
+    },
+    {
+      "feature": "Atypical_N",
+      "raw_feature": "cat__Atypical_N",
+      "mean_abs_shap": 0.0387
+    },
+    {
+      "feature": "Atypical_Y",
+      "raw_feature": "cat__Atypical_Y",
+      "mean_abs_shap": 0.02872
+    },
+    {
+      "feature": "Age",
+      "raw_feature": "num__Age",
+      "mean_abs_shap": 0.02854
+    },
+    {
+      "feature": "ESR",
+      "raw_feature": "num__ESR",
+      "mean_abs_shap": 0.02376
+    },
+    {
+      "feature": "BP",
+      "raw_feature": "num__BP",
+      "mean_abs_shap": 0.01611
+    },
+    {
+      "feature": "TG",
+      "raw_feature": "num__TG",
+      "mean_abs_shap": 0.01586
+    },
+    {
+      "feature": "Lymph",
+      "raw_feature": "num__Lymph",
+      "mean_abs_shap": 0.01536
+    },
+    {
+      "feature": "Tinversion",
+      "raw_feature": "num__Tinversion",
+      "mean_abs_shap": 0.01338
+    },
+    {
+      "feature": "Neut",
+      "raw_feature": "num__Neut",
+      "mean_abs_shap": 0.01288
+    },
+    {
+      "feature": "WBC",
+      "raw_feature": "num__WBC",
+      "mean_abs_shap": 0.01257
+    },
+    {
+      "feature": "PR",
+      "raw_feature": "num__PR",
+      "mean_abs_shap": 0.01132
+    },
+    {
+      "feature": "CR",
+      "raw_feature": "num__CR",
+      "mean_abs_shap": 0.00927
+    },
+    {
+      "feature": "Na",
+      "raw_feature": "num__Na",
+      "mean_abs_shap": 0.00891
+    },
+    {
+      "feature": "St Depression",
+      "raw_feature": "num__St Depression",
+      "mean_abs_shap": 0.00874
+    },
+    {
+      "feature": "FBS",
+      "raw_feature": "num__FBS",
+      "mean_abs_shap": 0.00761
+    },
+    {
+      "feature": "K",
+      "raw_feature": "num__K",
+      "mean_abs_shap": 0.00746
+    },
+    {
+      "feature": "BMI",
+      "raw_feature": "num__BMI",
+      "mean_abs_shap": 0.00719
+    },
+    {
+      "feature": "HB",
+      "raw_feature": "num__HB",
+      "mean_abs_shap": 0.00653
+    },
+    {
+      "feature": "PLT",
+      "raw_feature": "num__PLT",
+      "mean_abs_shap": 0.00652
+    },
+    {
+      "feature": "HTN",
+      "raw_feature": "num__HTN",
+      "mean_abs_shap": 0.00642
+    },
+    {
+      "feature": "DM",
+      "raw_feature": "num__DM",
+      "mean_abs_shap": 0.00539
+    },
+    {
+      "feature": "LDL",
+      "raw_feature": "num__LDL",
+      "mean_abs_shap": 0.00531
+    },
+    {
+      "feature": "Nonanginal_Y",
+      "raw_feature": "cat__Nonanginal_Y",
+      "mean_abs_shap": 0.00507
+    },
+    {
+      "feature": "HDL",
+      "raw_feature": "num__HDL",
+      "mean_abs_shap": 0.00471
+    },
+    {
+      "feature": "Obesity_N",
+      "raw_feature": "cat__Obesity_N",
+      "mean_abs_shap": 0.00384
+    },
+    {
+      "feature": "Nonanginal_N",
+      "raw_feature": "cat__Nonanginal_N",
+      "mean_abs_shap": 0.00365
+    },
+    {
+      "feature": "Sex_Female",
+      "raw_feature": "cat__Sex_Female",
+      "mean_abs_shap": 0.00274
+    },
+    {
+      "feature": "Sex_Male",
+      "raw_feature": "cat__Sex_Male",
+      "mean_abs_shap": 0.00265
+    },
+    {
+      "feature": "BUN",
+      "raw_feature": "num__BUN",
+      "mean_abs_shap": 0.00247
+    },
+    {
+      "feature": "St Elevation",
+      "raw_feature": "num__St Elevation",
+      "mean_abs_shap": 0.00241
+    },
+    {
+      "feature": "Diastolic Murmur_Y",
+      "raw_feature": "cat__Diastolic Murmur_Y",
+      "mean_abs_shap": 0.00226
+    },
+    {
+      "feature": "DLP_Y",
+      "raw_feature": "cat__DLP_Y",
+      "mean_abs_shap": 0.00214
+    },
+    {
+      "feature": "FH",
+      "raw_feature": "num__FH",
+      "mean_abs_shap": 0.00212
+    },
+    {
+      "feature": "Lung rales_Y",
+      "raw_feature": "cat__Lung rales_Y",
+      "mean_abs_shap": 0.00191
+    },
+    {
+      "feature": "Diastolic Murmur_N",
+      "raw_feature": "cat__Diastolic Murmur_N",
+      "mean_abs_shap": 0.00149
+    },
+    {
+      "feature": "Dyspnea_Y",
+      "raw_feature": "cat__Dyspnea_Y",
+      "mean_abs_shap": 0.00141
+    },
+    {
+      "feature": "Dyspnea_N",
+      "raw_feature": "cat__Dyspnea_N",
+      "mean_abs_shap": 0.00135
+    },
+    {
+      "feature": "Obesity_Y",
+      "raw_feature": "cat__Obesity_Y",
+      "mean_abs_shap": 0.00104
+    },
+    {
+      "feature": "DLP_N",
+      "raw_feature": "cat__DLP_N",
+      "mean_abs_shap": 0.00101
+    },
+    {
+      "feature": "Function Class",
+      "raw_feature": "num__Function Class",
+      "mean_abs_shap": 0.00093
+    },
+    {
+      "feature": "Q Wave",
+      "raw_feature": "num__Q Wave",
+      "mean_abs_shap": 0.00064
+    },
+    {
+      "feature": "Current Smoker",
+      "raw_feature": "num__Current Smoker",
+      "mean_abs_shap": 0.00062
+    },
+    {
+      "feature": "LVH_N",
+      "raw_feature": "cat__LVH_N",
+      "mean_abs_shap": 0.00056
+    },
+    {
+      "feature": "Systolic Murmur_N",
+      "raw_feature": "cat__Systolic Murmur_N",
+      "mean_abs_shap": 0.00051
+    },
+    {
+      "feature": "Lung rales_N",
+      "raw_feature": "cat__Lung rales_N",
+      "mean_abs_shap": 0.00045
+    },
+    {
+      "feature": "Poor R Progression_N",
+      "raw_feature": "cat__Poor R Progression_N",
+      "mean_abs_shap": 0.00044
+    },
+    {
+      "feature": "Airway disease_N",
+      "raw_feature": "cat__Airway disease_N",
+      "mean_abs_shap": 0.00036
+    },
+    {
+      "feature": "BBB_N",
+      "raw_feature": "cat__BBB_N",
+      "mean_abs_shap": 0.00034
+    },
+    {
+      "feature": "Poor R Progression_Y",
+      "raw_feature": "cat__Poor R Progression_Y",
+      "mean_abs_shap": 0.00033
+    },
+    {
+      "feature": "Systolic Murmur_Y",
+      "raw_feature": "cat__Systolic Murmur_Y",
+      "mean_abs_shap": 0.00032
+    },
+    {
+      "feature": "Edema",
+      "raw_feature": "num__Edema",
+      "mean_abs_shap": 0.00031
+    },
+    {
+      "feature": "LVH_Y",
+      "raw_feature": "cat__LVH_Y",
+      "mean_abs_shap": 0.00027
+    },
+    {
+      "feature": "BBB_LBBB",
+      "raw_feature": "cat__BBB_LBBB",
+      "mean_abs_shap": 0.0002
+    },
+    {
+      "feature": "EX-Smoker",
+      "raw_feature": "num__EX-Smoker",
+      "mean_abs_shap": 0.00017
+    },
+    {
+      "feature": "CRF_N",
+      "raw_feature": "cat__CRF_N",
+      "mean_abs_shap": 0.00017
+    },
+    {
+      "feature": "CRF_Y",
+      "raw_feature": "cat__CRF_Y",
+      "mean_abs_shap": 0.00017
+    },
+    {
+      "feature": "Thyroid Disease_Y",
+      "raw_feature": "cat__Thyroid Disease_Y",
+      "mean_abs_shap": 0.00016
+    },
+    {
+      "feature": "Airway disease_Y",
+      "raw_feature": "cat__Airway disease_Y",
+      "mean_abs_shap": 0.00014
+    },
+    {
+      "feature": "Thyroid Disease_N",
+      "raw_feature": "cat__Thyroid Disease_N",
+      "mean_abs_shap": 0.00013
+    },
+    {
+      "feature": "Weak Peripheral Pulse_N",
+      "raw_feature": "cat__Weak Peripheral Pulse_N",
+      "mean_abs_shap": 0.00011
+    },
+    {
+      "feature": "BBB_RBBB",
+      "raw_feature": "cat__BBB_RBBB",
+      "mean_abs_shap": 8e-05
+    },
+    {
+      "feature": "CVA_N",
+      "raw_feature": "cat__CVA_N",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "CVA_Y",
+      "raw_feature": "cat__CVA_Y",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "CHF_N",
+      "raw_feature": "cat__CHF_N",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "CHF_Y",
+      "raw_feature": "cat__CHF_Y",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "Weak Peripheral Pulse_Y",
+      "raw_feature": "cat__Weak Peripheral Pulse_Y",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "LowTH Ang_N",
+      "raw_feature": "cat__LowTH Ang_N",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "LowTH Ang_Y",
+      "raw_feature": "cat__LowTH Ang_Y",
+      "mean_abs_shap": 0.0
+    }
+  ],
+  "LCX": [
+    {
+      "feature": "Age",
+      "raw_feature": "num__Age",
+      "mean_abs_shap": 0.0509
+    },
+    {
+      "feature": "Typical Chest Pain",
+      "raw_feature": "num__Typical Chest Pain",
+      "mean_abs_shap": 0.02987
+    },
+    {
+      "feature": "CR",
+      "raw_feature": "num__CR",
+      "mean_abs_shap": 0.02736
+    },
+    {
+      "feature": "PLT",
+      "raw_feature": "num__PLT",
+      "mean_abs_shap": 0.02369
+    },
+    {
+      "feature": "TG",
+      "raw_feature": "num__TG",
+      "mean_abs_shap": 0.01967
+    },
+    {
+      "feature": "BMI",
+      "raw_feature": "num__BMI",
+      "mean_abs_shap": 0.01465
+    },
+    {
+      "feature": "BUN",
+      "raw_feature": "num__BUN",
+      "mean_abs_shap": 0.01432
+    },
+    {
+      "feature": "Na",
+      "raw_feature": "num__Na",
+      "mean_abs_shap": 0.01089
+    },
+    {
+      "feature": "HDL",
+      "raw_feature": "num__HDL",
+      "mean_abs_shap": 0.01083
+    },
+    {
+      "feature": "FBS",
+      "raw_feature": "num__FBS",
+      "mean_abs_shap": 0.01043
+    },
+    {
+      "feature": "Atypical_Y",
+      "raw_feature": "cat__Atypical_Y",
+      "mean_abs_shap": 0.01021
+    },
+    {
+      "feature": "BP",
+      "raw_feature": "num__BP",
+      "mean_abs_shap": 0.01009
+    },
+    {
+      "feature": "WBC",
+      "raw_feature": "num__WBC",
+      "mean_abs_shap": 0.00993
+    },
+    {
+      "feature": "HTN",
+      "raw_feature": "num__HTN",
+      "mean_abs_shap": 0.00979
+    },
+    {
+      "feature": "Sex_Female",
+      "raw_feature": "cat__Sex_Female",
+      "mean_abs_shap": 0.00946
+    },
+    {
+      "feature": "Sex_Male",
+      "raw_feature": "cat__Sex_Male",
+      "mean_abs_shap": 0.00933
+    },
+    {
+      "feature": "K",
+      "raw_feature": "num__K",
+      "mean_abs_shap": 0.00919
+    },
+    {
+      "feature": "LDL",
+      "raw_feature": "num__LDL",
+      "mean_abs_shap": 0.00912
+    },
+    {
+      "feature": "Atypical_N",
+      "raw_feature": "cat__Atypical_N",
+      "mean_abs_shap": 0.0089
+    },
+    {
+      "feature": "HB",
+      "raw_feature": "num__HB",
+      "mean_abs_shap": 0.00811
+    },
+    {
+      "feature": "ESR",
+      "raw_feature": "num__ESR",
+      "mean_abs_shap": 0.00802
+    },
+    {
+      "feature": "Lymph",
+      "raw_feature": "num__Lymph",
+      "mean_abs_shap": 0.0062
+    },
+    {
+      "feature": "Neut",
+      "raw_feature": "num__Neut",
+      "mean_abs_shap": 0.00546
+    },
+    {
+      "feature": "Current Smoker",
+      "raw_feature": "num__Current Smoker",
+      "mean_abs_shap": 0.00439
+    },
+    {
+      "feature": "Tinversion",
+      "raw_feature": "num__Tinversion",
+      "mean_abs_shap": 0.00358
+    },
+    {
+      "feature": "Function Class",
+      "raw_feature": "num__Function Class",
+      "mean_abs_shap": 0.00283
+    },
+    {
+      "feature": "Systolic Murmur_Y",
+      "raw_feature": "cat__Systolic Murmur_Y",
+      "mean_abs_shap": 0.00255
+    },
+    {
+      "feature": "Dyspnea_Y",
+      "raw_feature": "cat__Dyspnea_Y",
+      "mean_abs_shap": 0.0024
+    },
+    {
+      "feature": "St Depression",
+      "raw_feature": "num__St Depression",
+      "mean_abs_shap": 0.00237
+    },
+    {
+      "feature": "DLP_Y",
+      "raw_feature": "cat__DLP_Y",
+      "mean_abs_shap": 0.00215
+    },
+    {
+      "feature": "Dyspnea_N",
+      "raw_feature": "cat__Dyspnea_N",
+      "mean_abs_shap": 0.00192
+    },
+    {
+      "feature": "PR",
+      "raw_feature": "num__PR",
+      "mean_abs_shap": 0.00187
+    },
+    {
+      "feature": "DM",
+      "raw_feature": "num__DM",
+      "mean_abs_shap": 0.00185
+    },
+    {
+      "feature": "LVH_N",
+      "raw_feature": "cat__LVH_N",
+      "mean_abs_shap": 0.00167
+    },
+    {
+      "feature": "Obesity_N",
+      "raw_feature": "cat__Obesity_N",
+      "mean_abs_shap": 0.00146
+    },
+    {
+      "feature": "Systolic Murmur_N",
+      "raw_feature": "cat__Systolic Murmur_N",
+      "mean_abs_shap": 0.00136
+    },
+    {
+      "feature": "Obesity_Y",
+      "raw_feature": "cat__Obesity_Y",
+      "mean_abs_shap": 0.0013
+    },
+    {
+      "feature": "LVH_Y",
+      "raw_feature": "cat__LVH_Y",
+      "mean_abs_shap": 0.001
+    },
+    {
+      "feature": "Diastolic Murmur_N",
+      "raw_feature": "cat__Diastolic Murmur_N",
+      "mean_abs_shap": 0.0009
+    },
+    {
+      "feature": "DLP_N",
+      "raw_feature": "cat__DLP_N",
+      "mean_abs_shap": 0.00075
+    },
+    {
+      "feature": "EX-Smoker",
+      "raw_feature": "num__EX-Smoker",
+      "mean_abs_shap": 0.00075
+    },
+    {
+      "feature": "Q Wave",
+      "raw_feature": "num__Q Wave",
+      "mean_abs_shap": 0.00069
+    },
+    {
+      "feature": "FH",
+      "raw_feature": "num__FH",
+      "mean_abs_shap": 0.00062
+    },
+    {
+      "feature": "Airway disease_Y",
+      "raw_feature": "cat__Airway disease_Y",
+      "mean_abs_shap": 0.00055
+    },
+    {
+      "feature": "BBB_LBBB",
+      "raw_feature": "cat__BBB_LBBB",
+      "mean_abs_shap": 0.0005
+    },
+    {
+      "feature": "BBB_N",
+      "raw_feature": "cat__BBB_N",
+      "mean_abs_shap": 0.00046
+    },
+    {
+      "feature": "Nonanginal_Y",
+      "raw_feature": "cat__Nonanginal_Y",
+      "mean_abs_shap": 0.00046
+    },
+    {
+      "feature": "Thyroid Disease_Y",
+      "raw_feature": "cat__Thyroid Disease_Y",
+      "mean_abs_shap": 0.00035
+    },
+    {
+      "feature": "Nonanginal_N",
+      "raw_feature": "cat__Nonanginal_N",
+      "mean_abs_shap": 0.00032
+    },
+    {
+      "feature": "Edema",
+      "raw_feature": "num__Edema",
+      "mean_abs_shap": 0.00031
+    },
+    {
+      "feature": "Diastolic Murmur_Y",
+      "raw_feature": "cat__Diastolic Murmur_Y",
+      "mean_abs_shap": 0.0003
+    },
+    {
+      "feature": "Weak Peripheral Pulse_N",
+      "raw_feature": "cat__Weak Peripheral Pulse_N",
+      "mean_abs_shap": 0.00027
+    },
+    {
+      "feature": "Airway disease_N",
+      "raw_feature": "cat__Airway disease_N",
+      "mean_abs_shap": 0.00025
+    },
+    {
+      "feature": "Thyroid Disease_N",
+      "raw_feature": "cat__Thyroid Disease_N",
+      "mean_abs_shap": 0.00022
+    },
+    {
+      "feature": "Lung rales_Y",
+      "raw_feature": "cat__Lung rales_Y",
+      "mean_abs_shap": 0.00021
+    },
+    {
+      "feature": "CRF_Y",
+      "raw_feature": "cat__CRF_Y",
+      "mean_abs_shap": 0.00021
+    },
+    {
+      "feature": "CVA_N",
+      "raw_feature": "cat__CVA_N",
+      "mean_abs_shap": 0.0002
+    },
+    {
+      "feature": "Weak Peripheral Pulse_Y",
+      "raw_feature": "cat__Weak Peripheral Pulse_Y",
+      "mean_abs_shap": 0.00019
+    },
+    {
+      "feature": "Lung rales_N",
+      "raw_feature": "cat__Lung rales_N",
+      "mean_abs_shap": 0.00017
+    },
+    {
+      "feature": "BBB_RBBB",
+      "raw_feature": "cat__BBB_RBBB",
+      "mean_abs_shap": 0.00014
+    },
+    {
+      "feature": "Poor R Progression_Y",
+      "raw_feature": "cat__Poor R Progression_Y",
+      "mean_abs_shap": 8e-05
+    },
+    {
+      "feature": "St Elevation",
+      "raw_feature": "num__St Elevation",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "CVA_Y",
+      "raw_feature": "cat__CVA_Y",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "CHF_N",
+      "raw_feature": "cat__CHF_N",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "CHF_Y",
+      "raw_feature": "cat__CHF_Y",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "LowTH Ang_N",
+      "raw_feature": "cat__LowTH Ang_N",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "LowTH Ang_Y",
+      "raw_feature": "cat__LowTH Ang_Y",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "Poor R Progression_N",
+      "raw_feature": "cat__Poor R Progression_N",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "CRF_N",
+      "raw_feature": "cat__CRF_N",
+      "mean_abs_shap": 0.0
+    }
+  ],
+  "RCA": [
+    {
+      "feature": "DM",
+      "raw_feature": "num__DM",
+      "mean_abs_shap": 0.73262
+    },
+    {
+      "feature": "Age",
+      "raw_feature": "num__Age",
+      "mean_abs_shap": 0.68349
+    },
+    {
+      "feature": "CRF_N",
+      "raw_feature": "cat__CRF_N",
+      "mean_abs_shap": 0.57574
+    },
+    {
+      "feature": "CVA_N",
+      "raw_feature": "cat__CVA_N",
+      "mean_abs_shap": 0.54501
+    },
+    {
+      "feature": "Function Class",
+      "raw_feature": "num__Function Class",
+      "mean_abs_shap": 0.48765
+    },
+    {
+      "feature": "ESR",
+      "raw_feature": "num__ESR",
+      "mean_abs_shap": 0.47522
+    },
+    {
+      "feature": "Sex_Male",
+      "raw_feature": "cat__Sex_Male",
+      "mean_abs_shap": 0.46058
+    },
+    {
+      "feature": "Neut",
+      "raw_feature": "num__Neut",
+      "mean_abs_shap": 0.38884
+    },
+    {
+      "feature": "Dyspnea_N",
+      "raw_feature": "cat__Dyspnea_N",
+      "mean_abs_shap": 0.34944
+    },
+    {
+      "feature": "Sex_Female",
+      "raw_feature": "cat__Sex_Female",
+      "mean_abs_shap": 0.33546
+    },
+    {
+      "feature": "Typical Chest Pain",
+      "raw_feature": "num__Typical Chest Pain",
+      "mean_abs_shap": 0.33109
+    },
+    {
+      "feature": "Poor R Progression_N",
+      "raw_feature": "cat__Poor R Progression_N",
+      "mean_abs_shap": 0.32849
+    },
+    {
+      "feature": "HDL",
+      "raw_feature": "num__HDL",
+      "mean_abs_shap": 0.30281
+    },
+    {
+      "feature": "FH",
+      "raw_feature": "num__FH",
+      "mean_abs_shap": 0.26955
+    },
+    {
+      "feature": "Dyspnea_Y",
+      "raw_feature": "cat__Dyspnea_Y",
+      "mean_abs_shap": 0.26325
+    },
+    {
+      "feature": "Nonanginal_N",
+      "raw_feature": "cat__Nonanginal_N",
+      "mean_abs_shap": 0.26206
+    },
+    {
+      "feature": "TG",
+      "raw_feature": "num__TG",
+      "mean_abs_shap": 0.26125
+    },
+    {
+      "feature": "LVH_N",
+      "raw_feature": "cat__LVH_N",
+      "mean_abs_shap": 0.25701
+    },
+    {
+      "feature": "Diastolic Murmur_N",
+      "raw_feature": "cat__Diastolic Murmur_N",
+      "mean_abs_shap": 0.24898
+    },
+    {
+      "feature": "LowTH Ang_N",
+      "raw_feature": "cat__LowTH Ang_N",
+      "mean_abs_shap": 0.2222
+    },
+    {
+      "feature": "BBB_N",
+      "raw_feature": "cat__BBB_N",
+      "mean_abs_shap": 0.21703
+    },
+    {
+      "feature": "St Elevation",
+      "raw_feature": "num__St Elevation",
+      "mean_abs_shap": 0.21093
+    },
+    {
+      "feature": "Current Smoker",
+      "raw_feature": "num__Current Smoker",
+      "mean_abs_shap": 0.18817
+    },
+    {
+      "feature": "HTN",
+      "raw_feature": "num__HTN",
+      "mean_abs_shap": 0.17961
+    },
+    {
+      "feature": "St Depression",
+      "raw_feature": "num__St Depression",
+      "mean_abs_shap": 0.17005
+    },
+    {
+      "feature": "CHF_N",
+      "raw_feature": "cat__CHF_N",
+      "mean_abs_shap": 0.16706
+    },
+    {
+      "feature": "BUN",
+      "raw_feature": "num__BUN",
+      "mean_abs_shap": 0.15508
+    },
+    {
+      "feature": "K",
+      "raw_feature": "num__K",
+      "mean_abs_shap": 0.14568
+    },
+    {
+      "feature": "Systolic Murmur_N",
+      "raw_feature": "cat__Systolic Murmur_N",
+      "mean_abs_shap": 0.1196
+    },
+    {
+      "feature": "Obesity_Y",
+      "raw_feature": "cat__Obesity_Y",
+      "mean_abs_shap": 0.11651
+    },
+    {
+      "feature": "Lung rales_N",
+      "raw_feature": "cat__Lung rales_N",
+      "mean_abs_shap": 0.10943
+    },
+    {
+      "feature": "FBS",
+      "raw_feature": "num__FBS",
+      "mean_abs_shap": 0.10598
+    },
+    {
+      "feature": "Atypical_N",
+      "raw_feature": "cat__Atypical_N",
+      "mean_abs_shap": 0.10356
+    },
+    {
+      "feature": "Weak Peripheral Pulse_N",
+      "raw_feature": "cat__Weak Peripheral Pulse_N",
+      "mean_abs_shap": 0.09945
+    },
+    {
+      "feature": "BMI",
+      "raw_feature": "num__BMI",
+      "mean_abs_shap": 0.09923
+    },
+    {
+      "feature": "Q Wave",
+      "raw_feature": "num__Q Wave",
+      "mean_abs_shap": 0.09314
+    },
+    {
+      "feature": "EX-Smoker",
+      "raw_feature": "num__EX-Smoker",
+      "mean_abs_shap": 0.06656
+    },
+    {
+      "feature": "HB",
+      "raw_feature": "num__HB",
+      "mean_abs_shap": 0.06586
+    },
+    {
+      "feature": "Thyroid Disease_N",
+      "raw_feature": "cat__Thyroid Disease_N",
+      "mean_abs_shap": 0.06232
+    },
+    {
+      "feature": "CR",
+      "raw_feature": "num__CR",
+      "mean_abs_shap": 0.06202
+    },
+    {
+      "feature": "DLP_N",
+      "raw_feature": "cat__DLP_N",
+      "mean_abs_shap": 0.05742
+    },
+    {
+      "feature": "Na",
+      "raw_feature": "num__Na",
+      "mean_abs_shap": 0.05398
+    },
+    {
+      "feature": "Tinversion",
+      "raw_feature": "num__Tinversion",
+      "mean_abs_shap": 0.05105
+    },
+    {
+      "feature": "Obesity_N",
+      "raw_feature": "cat__Obesity_N",
+      "mean_abs_shap": 0.04735
+    },
+    {
+      "feature": "Atypical_Y",
+      "raw_feature": "cat__Atypical_Y",
+      "mean_abs_shap": 0.04643
+    },
+    {
+      "feature": "PLT",
+      "raw_feature": "num__PLT",
+      "mean_abs_shap": 0.03403
+    },
+    {
+      "feature": "DLP_Y",
+      "raw_feature": "cat__DLP_Y",
+      "mean_abs_shap": 0.03331
+    },
+    {
+      "feature": "Airway disease_N",
+      "raw_feature": "cat__Airway disease_N",
+      "mean_abs_shap": 0.03147
+    },
+    {
+      "feature": "Edema",
+      "raw_feature": "num__Edema",
+      "mean_abs_shap": 0.02383
+    },
+    {
+      "feature": "BP",
+      "raw_feature": "num__BP",
+      "mean_abs_shap": 0.02168
+    },
+    {
+      "feature": "Lymph",
+      "raw_feature": "num__Lymph",
+      "mean_abs_shap": 0.02087
+    },
+    {
+      "feature": "LVH_Y",
+      "raw_feature": "cat__LVH_Y",
+      "mean_abs_shap": 0.02063
+    },
+    {
+      "feature": "Systolic Murmur_Y",
+      "raw_feature": "cat__Systolic Murmur_Y",
+      "mean_abs_shap": 0.01826
+    },
+    {
+      "feature": "BBB_RBBB",
+      "raw_feature": "cat__BBB_RBBB",
+      "mean_abs_shap": 0.01464
+    },
+    {
+      "feature": "BBB_LBBB",
+      "raw_feature": "cat__BBB_LBBB",
+      "mean_abs_shap": 0.01342
+    },
+    {
+      "feature": "Nonanginal_Y",
+      "raw_feature": "cat__Nonanginal_Y",
+      "mean_abs_shap": 0.01247
+    },
+    {
+      "feature": "CRF_Y",
+      "raw_feature": "cat__CRF_Y",
+      "mean_abs_shap": 0.01214
+    },
+    {
+      "feature": "CVA_Y",
+      "raw_feature": "cat__CVA_Y",
+      "mean_abs_shap": 0.0115
+    },
+    {
+      "feature": "LDL",
+      "raw_feature": "num__LDL",
+      "mean_abs_shap": 0.00909
+    },
+    {
+      "feature": "Diastolic Murmur_Y",
+      "raw_feature": "cat__Diastolic Murmur_Y",
+      "mean_abs_shap": 0.0085
+    },
+    {
+      "feature": "PR",
+      "raw_feature": "num__PR",
+      "mean_abs_shap": 0.00827
+    },
+    {
+      "feature": "Poor R Progression_Y",
+      "raw_feature": "cat__Poor R Progression_Y",
+      "mean_abs_shap": 0.00694
+    },
+    {
+      "feature": "WBC",
+      "raw_feature": "num__WBC",
+      "mean_abs_shap": 0.00608
+    },
+    {
+      "feature": "Lung rales_Y",
+      "raw_feature": "cat__Lung rales_Y",
+      "mean_abs_shap": 0.00373
+    },
+    {
+      "feature": "Weak Peripheral Pulse_Y",
+      "raw_feature": "cat__Weak Peripheral Pulse_Y",
+      "mean_abs_shap": 0.00209
+    },
+    {
+      "feature": "Thyroid Disease_Y",
+      "raw_feature": "cat__Thyroid Disease_Y",
+      "mean_abs_shap": 0.00186
+    },
+    {
+      "feature": "Airway disease_Y",
+      "raw_feature": "cat__Airway disease_Y",
+      "mean_abs_shap": 0.00094
+    },
+    {
+      "feature": "LowTH Ang_Y",
+      "raw_feature": "cat__LowTH Ang_Y",
+      "mean_abs_shap": 0.00092
+    },
+    {
+      "feature": "CHF_Y",
+      "raw_feature": "cat__CHF_Y",
+      "mean_abs_shap": 0.00069
+    }
+  ]
+}

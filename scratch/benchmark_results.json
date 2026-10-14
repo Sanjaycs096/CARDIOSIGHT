@@ -1,0 +1,61 @@
+{
+  "environment": {
+    "platform": "Windows-10-10.0.26300-SP0",
+    "python_version": "3.10.0",
+    "processor": "Intel64 Family 6 Model 154 Stepping 4, GenuineIntel"
+  },
+  "model_load_time_ms": 7310.7,
+  "prediction_benchmark": {
+    "warmup_requests": 3,
+    "measured_requests": 50,
+    "successful_requests": 50,
+    "failed_requests": 0,
+    "cold_start_ms": 229.07,
+    "min_ms": 147.1,
+    "median_ms": 178.98,
+    "mean_ms": 188.43,
+    "p95_ms": 243.01,
+    "max_ms": 250.58,
+    "deterministic": true
+  },
+  "shap_benchmark_all_targets": {
+    "warmup_requests": 2,
+    "measured_requests": 20,
+    "successful_requests": 20,
+    "failed_requests": 0,
+    "cold_start_ms": 14876.92,
+    "min_ms": 161.0,
+    "median_ms": 190.56,
+    "mean_ms": 196.58,
+    "p95_ms": 222.55,
+    "max_ms": 284.96,
+    "deterministic": true
+  },
+  "per_target_shap": {
+    "Cath": {
+      "median_ms": 62.09,
+      "model_type": "LogisticRegression",
+      "method": "LinearExplainer"
+    },
+    "LAD": {
+      "median_ms": 86.59,
+      "model_type": "RandomForestClassifier",
+      "method": "TreeExplainer"
+    },
+    "LCX": {
+      "median_ms": 77.21,
+      "model_type": "RandomForestClassifier",
+      "method": "TreeExplainer"
+    },
+    "RCA": {
+      "median_ms": 63.68,
+      "model_type": "LogisticRegression",
+      "method": "LinearExplainer"
+    }
+  },
+  "artifact_integrity": {
+    "pre_benchmark_match": true,
+    "post_benchmark_match": true,
+    "artifacts_verified_count": 8
+  }
+}

@@ -1,0 +1,428 @@
+{
+  "feature_set_name": "Set_A_BMI_Only",
+  "feature_count": 49,
+  "forbidden_exclusions": [
+    "Cath",
+    "LAD",
+    "LCX",
+    "RCA",
+    "EF-TTE",
+    "Region RWMA",
+    "VHD",
+    "Exertional CP"
+  ],
+  "features": [
+    {
+      "name": "Age",
+      "type": "numeric",
+      "dtype": "int64",
+      "min_observed": 30.0,
+      "max_observed": 86.0,
+      "median_observed": 58.0
+    },
+    {
+      "name": "Sex",
+      "type": "categorical",
+      "dtype": "object",
+      "allowed_categories": [
+        "Female",
+        "Male"
+      ]
+    },
+    {
+      "name": "BMI",
+      "type": "numeric",
+      "dtype": "float64",
+      "min_observed": 18.11541271,
+      "max_observed": 40.90065778,
+      "median_observed": 26.7755102
+    },
+    {
+      "name": "DM",
+      "type": "numeric",
+      "dtype": "int64",
+      "min_observed": 0.0,
+      "max_observed": 1.0,
+      "median_observed": 0.0
+    },
+    {
+      "name": "HTN",
+      "type": "numeric",
+      "dtype": "int64",
+      "min_observed": 0.0,
+      "max_observed": 1.0,
+      "median_observed": 1.0
+    },
+    {
+      "name": "Current Smoker",
+      "type": "numeric",
+      "dtype": "int64",
+      "min_observed": 0.0,
+      "max_observed": 1.0,
+      "median_observed": 0.0
+    },
+    {
+      "name": "EX-Smoker",
+      "type": "numeric",
+      "dtype": "int64",
+      "min_observed": 0.0,
+      "max_observed": 1.0,
+      "median_observed": 0.0
+    },
+    {
+      "name": "FH",
+      "type": "numeric",
+      "dtype": "int64",
+      "min_observed": 0.0,
+      "max_observed": 1.0,
+      "median_observed": 0.0
+    },
+    {
+      "name": "Obesity",
+      "type": "categorical",
+      "dtype": "object",
+      "allowed_categories": [
+        "N",
+        "Y"
+      ]
+    },
+    {
+      "name": "CRF",
+      "type": "categorical",
+      "dtype": "object",
+      "allowed_categories": [
+        "N",
+        "Y"
+      ]
+    },
+    {
+      "name": "CVA",
+      "type": "categorical",
+      "dtype": "object",
+      "allowed_categories": [
+        "N",
+        "Y"
+      ]
+    },
+    {
+      "name": "Airway disease",
+      "type": "categorical",
+      "dtype": "object",
+      "allowed_categories": [
+        "N",
+        "Y"
+      ]
+    },
+    {
+      "name": "Thyroid Disease",
+      "type": "categorical",
+      "dtype": "object",
+      "allowed_categories": [
+        "N",
+        "Y"
+      ]
+    },
+    {
+      "name": "CHF",
+      "type": "categorical",
+      "dtype": "object",
+      "allowed_categories": [
+        "N",
+        "Y"
+      ]
+    },
+    {
+      "name": "DLP",
+      "type": "categorical",
+      "dtype": "object",
+      "allowed_categories": [
+        "N",
+        "Y"
+      ]
+    },
+    {
+      "name": "BP",
+      "type": "numeric",
+      "dtype": "int64",
+      "min_observed": 90.0,
+      "max_observed": 190.0,
+      "median_observed": 130.0
+    },
+    {
+      "name": "PR",
+      "type": "numeric",
+      "dtype": "int64",
+      "min_observed": 50.0,
+      "max_observed": 110.0,
+      "median_observed": 70.0
+    },
+    {
+      "name": "Edema",
+      "type": "numeric",
+      "dtype": "int64",
+      "min_observed": 0.0,
+      "max_observed": 1.0,
+      "median_observed": 0.0
+    },
+    {
+      "name": "Weak Peripheral Pulse",
+      "type": "categorical",
+      "dtype": "object",
+      "allowed_categories": [
+        "N",
+        "Y"
+      ]
+    },
+    {
+      "name": "Lung rales",
+      "type": "categorical",
+      "dtype": "object",
+      "allowed_categories": [
+        "N",
+        "Y"
+      ]
+    },
+    {
+      "name": "Systolic Murmur",
+      "type": "categorical",
+      "dtype": "object",
+      "allowed_categories": [
+        "N",
+        "Y"
+      ]
+    },
+    {
+      "name": "Diastolic Murmur",
+      "type": "categorical",
+      "dtype": "object",
+      "allowed_categories": [
+        "N",
+        "Y"
+      ]
+    },
+    {
+      "name": "Typical Chest Pain",
+      "type": "numeric",
+      "dtype": "int64",
+      "min_observed": 0.0,
+      "max_observed": 1.0,
+      "median_observed": 1.0
+    },
+    {
+      "name": "Dyspnea",
+      "type": "categorical",
+      "dtype": "object",
+      "allowed_categories": [
+        "N",
+        "Y"
+      ]
+    },
+    {
+      "name": "Function Class",
+      "type": "numeric",
+      "dtype": "int64",
+      "min_observed": 0.0,
+      "max_observed": 3.0,
+      "median_observed": 0.0
+    },
+    {
+      "name": "Atypical",
+      "type": "categorical",
+      "dtype": "object",
+      "allowed_categories": [
+        "N",
+        "Y"
+      ]
+    },
+    {
+      "name": "Nonanginal",
+      "type": "categorical",
+      "dtype": "object",
+      "allowed_categories": [
+        "N",
+        "Y"
+      ]
+    },
+    {
+      "name": "LowTH Ang",
+      "type": "categorical",
+      "dtype": "object",
+      "allowed_categories": [
+        "N",
+        "Y"
+      ]
+    },
+    {
+      "name": "Q Wave",
+      "type": "numeric",
+      "dtype": "int64",
+      "min_observed": 0.0,
+      "max_observed": 1.0,
+      "median_observed": 0.0
+    },
+    {
+      "name": "St Elevation",
+      "type": "numeric",
+      "dtype": "int64",
+      "min_observed": 0.0,
+      "max_observed": 1.0,
+      "median_observed": 0.0
+    },
+    {
+      "name": "St Depression",
+      "type": "numeric",
+      "dtype": "int64",
+      "min_observed": 0.0,
+      "max_observed": 1.0,
+      "median_observed": 0.0
+    },
+    {
+      "name": "Tinversion",
+      "type": "numeric",
+      "dtype": "int64",
+      "min_observed": 0.0,
+      "max_observed": 1.0,
+      "median_observed": 0.0
+    },
+    {
+      "name": "LVH",
+      "type": "categorical",
+      "dtype": "object",
+      "allowed_categories": [
+        "N",
+        "Y"
+      ]
+    },
+    {
+      "name": "Poor R Progression",
+      "type": "categorical",
+      "dtype": "object",
+      "allowed_categories": [
+        "N",
+        "Y"
+      ]
+    },
+    {
+      "name": "BBB",
+      "type": "categorical",
+      "dtype": "object",
+      "allowed_categories": [
+        "LBBB",
+        "N",
+        "RBBB"
+      ]
+    },
+    {
+      "name": "FBS",
+      "type": "numeric",
+      "dtype": "int64",
+      "min_observed": 62.0,
+      "max_observed": 400.0,
+      "median_observed": 98.0
+    },
+    {
+      "name": "CR",
+      "type": "numeric",
+      "dtype": "float64",
+      "min_observed": 0.5,
+      "max_observed": 2.2,
+      "median_observed": 1.0
+    },
+    {
+      "name": "TG",
+      "type": "numeric",
+      "dtype": "int64",
+      "min_observed": 37.0,
+      "max_observed": 1050.0,
+      "median_observed": 122.0
+    },
+    {
+      "name": "LDL",
+      "type": "numeric",
+      "dtype": "int64",
+      "min_observed": 18.0,
+      "max_observed": 232.0,
+      "median_observed": 100.0
+    },
+    {
+      "name": "HDL",
+      "type": "numeric",
+      "dtype": "float64",
+      "min_observed": 15.9,
+      "max_observed": 111.0,
+      "median_observed": 39.0
+    },
+    {
+      "name": "BUN",
+      "type": "numeric",
+      "dtype": "int64",
+      "min_observed": 6.0,
+      "max_observed": 52.0,
+      "median_observed": 16.0
+    },
+    {
+      "name": "ESR",
+      "type": "numeric",
+      "dtype": "int64",
+      "min_observed": 1.0,
+      "max_observed": 90.0,
+      "median_observed": 15.0
+    },
+    {
+      "name": "HB",
+      "type": "numeric",
+      "dtype": "float64",
+      "min_observed": 8.9,
+      "max_observed": 17.6,
+      "median_observed": 13.2
+    },
+    {
+      "name": "K",
+      "type": "numeric",
+      "dtype": "float64",
+      "min_observed": 3.0,
+      "max_observed": 6.6,
+      "median_observed": 4.2
+    },
+    {
+      "name": "Na",
+      "type": "numeric",
+      "dtype": "int64",
+      "min_observed": 128.0,
+      "max_observed": 156.0,
+      "median_observed": 141.0
+    },
+    {
+      "name": "WBC",
+      "type": "numeric",
+      "dtype": "int64",
+      "min_observed": 3700.0,
+      "max_observed": 18000.0,
+      "median_observed": 7100.0
+    },
+    {
+      "name": "Lymph",
+      "type": "numeric",
+      "dtype": "int64",
+      "min_observed": 7.0,
+      "max_observed": 60.0,
+      "median_observed": 32.0
+    },
+    {
+      "name": "Neut",
+      "type": "numeric",
+      "dtype": "int64",
+      "min_observed": 32.0,
+      "max_observed": 89.0,
+      "median_observed": 60.0
+    },
+    {
+      "name": "PLT",
+      "type": "numeric",
+      "dtype": "int64",
+      "min_observed": 25.0,
+      "max_observed": 742.0,
+      "median_observed": 210.0
+    }
+  ]
+}

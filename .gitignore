@@ -1,0 +1,68 @@
+# CardioSight .gitignore
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Node.js & Frontend Build Outputs
+node_modules/
+.next/
+out/
+build/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Environment Variables & Local Secrets
+.env
+.env*.local
+*.env
+.secret*
+
+# IDE & Editor files
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Large Model Weights and Binary Artifacts
+backend/artifacts/*.pkl
+backend/artifacts/*.h5
+backend/artifacts/*.onnx
+backend/artifacts/*.pt
+backend/artifacts/*.bin
+backend/artifacts/*.joblib
+!backend/artifacts/cath_pipeline.joblib
+!backend/artifacts/lad_pipeline.joblib
+!backend/artifacts/lcx_pipeline.joblib
+!backend/artifacts/rca_pipeline.joblib
+
+# Intermediate Data
+data/processed/*
+!data/processed/.gitkeep
+
+# Ensure manifests and essentials are preserved
+!selected_models/manifest.json
+!selected_models/README.md

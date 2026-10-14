@@ -1,0 +1,758 @@
+{
+  "metadata": {
+    "pipeline_version": "1.0.0",
+    "timestamp_utc": "2026-10-13T18:07:52.060426",
+    "random_seed": 42,
+    "test_size": 0.2,
+    "cv_splits": 5,
+    "dataset_rows": 303,
+    "selected_feature_set": "Set_A_BMI_Only",
+    "feature_count": 49,
+    "saved_artifacts": {
+      "Cath": "backend\\artifacts\\cath_pipeline.joblib",
+      "LAD": "backend\\artifacts\\lad_pipeline.joblib",
+      "LCX": "backend\\artifacts\\lcx_pipeline.joblib",
+      "RCA": "backend\\artifacts\\rca_pipeline.joblib"
+    },
+    "environment": {
+      "python_version": "3.10.0",
+      "scikit_learn_version": "1.5.0",
+      "platform": "Windows-10-10.0.26300-SP0"
+    },
+    "clinical_safeguard": "EXPERIMENTAL EDUCATIONAL PROTOTYPE ONLY. Not clinically validated for diagnosis or treatment decisions."
+  },
+  "feature_set_comparison": {
+    "Set_A_BMI_Only": {
+      "Cath": {
+        "mean_roc_auc": 0.9186,
+        "std_roc_auc": 0.0389,
+        "mean_f1": 0.8918,
+        "mean_accuracy": 0.8512
+      },
+      "LAD": {
+        "mean_roc_auc": 0.7939,
+        "std_roc_auc": 0.0548,
+        "mean_f1": 0.7537,
+        "mean_accuracy": 0.7196
+      },
+      "LCX": {
+        "mean_roc_auc": 0.6647,
+        "std_roc_auc": 0.0539,
+        "mean_f1": 0.5458,
+        "mean_accuracy": 0.617
+      },
+      "RCA": {
+        "mean_roc_auc": 0.7173,
+        "std_roc_auc": 0.0218,
+        "mean_f1": 0.5782,
+        "mean_accuracy": 0.6537
+      }
+    },
+    "Set_B_Weight_Length_Only": {
+      "Cath": {
+        "mean_roc_auc": 0.9175,
+        "std_roc_auc": 0.0386,
+        "mean_f1": 0.8843,
+        "mean_accuracy": 0.8412
+      },
+      "LAD": {
+        "mean_roc_auc": 0.7948,
+        "std_roc_auc": 0.053,
+        "mean_f1": 0.7573,
+        "mean_accuracy": 0.7229
+      },
+      "LCX": {
+        "mean_roc_auc": 0.6582,
+        "std_roc_auc": 0.0541,
+        "mean_f1": 0.546,
+        "mean_accuracy": 0.6105
+      },
+      "RCA": {
+        "mean_roc_auc": 0.7097,
+        "std_roc_auc": 0.0205,
+        "mean_f1": 0.5839,
+        "mean_accuracy": 0.6537
+      }
+    },
+    "Set_C_All_Three": {
+      "Cath": {
+        "mean_roc_auc": 0.9176,
+        "std_roc_auc": 0.039,
+        "mean_f1": 0.8898,
+        "mean_accuracy": 0.8479
+      },
+      "LAD": {
+        "mean_roc_auc": 0.7943,
+        "std_roc_auc": 0.0552,
+        "mean_f1": 0.7592,
+        "mean_accuracy": 0.7262
+      },
+      "LCX": {
+        "mean_roc_auc": 0.6571,
+        "std_roc_auc": 0.0537,
+        "mean_f1": 0.546,
+        "mean_accuracy": 0.6105
+      },
+      "RCA": {
+        "mean_roc_auc": 0.7092,
+        "std_roc_auc": 0.0186,
+        "mean_f1": 0.572,
+        "mean_accuracy": 0.6471
+      }
+    }
+  },
+  "target_evaluations": {
+    "Cath": {
+      "target_description": "Overall Coronary Artery Disease (Gold-Standard Angiography)",
+      "positive_class": "CAD",
+      "negative_class": "Normal",
+      "selected_model": "logistic_regression",
+      "selection_rationale": "Superior cross-validation ROC-AUC (0.9175) evaluated across 5-fold stratified CV on training partition.",
+      "candidates_cv_comparison": {
+        "logistic_regression": {
+          "mean_roc_auc": 0.9175,
+          "std_roc_auc": 0.0297,
+          "mean_f1": 0.8713,
+          "mean_accuracy": 0.8223
+        },
+        "random_forest": {
+          "mean_roc_auc": 0.9023,
+          "std_roc_auc": 0.044,
+          "mean_f1": 0.8867,
+          "mean_accuracy": 0.8426
+        }
+      },
+      "training_cv_metrics": {
+        "n_folds": 5,
+        "mean_roc_auc": 0.9175,
+        "std_roc_auc": 0.0297,
+        "mean_f1": 0.8713,
+        "std_f1": 0.0399,
+        "mean_accuracy": 0.8223,
+        "std_accuracy": 0.0468,
+        "mean_precision": 0.8919,
+        "std_precision": 0.0186,
+        "mean_recall": 0.8548,
+        "std_recall": 0.0725,
+        "fold_details": [
+          {
+            "accuracy": 0.8163,
+            "precision": 0.9062,
+            "recall": 0.8286,
+            "f1": 0.8657,
+            "roc_auc": 0.9143,
+            "confusion_matrix": {
+              "true_negative": 11,
+              "false_positive": 3,
+              "false_negative": 6,
+              "true_positive": 29
+            },
+            "sample_counts": {
+              "total": 49,
+              "positive_count": 35,
+              "negative_count": 14,
+              "positive_proportion": 0.7143
+            },
+            "positive_class_label": "CAD",
+            "fold": 1
+          },
+          {
+            "accuracy": 0.8367,
+            "precision": 0.8649,
+            "recall": 0.9143,
+            "f1": 0.8889,
+            "roc_auc": 0.9551,
+            "confusion_matrix": {
+              "true_negative": 9,
+              "false_positive": 5,
+              "false_negative": 3,
+              "true_positive": 32
+            },
+            "sample_counts": {
+              "total": 49,
+              "positive_count": 35,
+              "negative_count": 14,
+              "positive_proportion": 0.7143
+            },
+            "positive_class_label": "CAD",
+            "fold": 2
+          },
+          {
+            "accuracy": 0.8958,
+            "precision": 0.9167,
+            "recall": 0.9429,
+            "f1": 0.9296,
+            "roc_auc": 0.9451,
+            "confusion_matrix": {
+              "true_negative": 10,
+              "false_positive": 3,
+              "false_negative": 2,
+              "true_positive": 33
+            },
+            "sample_counts": {
+              "total": 48,
+              "positive_count": 35,
+              "negative_count": 13,
+              "positive_proportion": 0.7292
+            },
+            "positive_class_label": "CAD",
+            "fold": 3
+          },
+          {
+            "accuracy": 0.8125,
+            "precision": 0.8788,
+            "recall": 0.8529,
+            "f1": 0.8657,
+            "roc_auc": 0.8992,
+            "confusion_matrix": {
+              "true_negative": 10,
+              "false_positive": 4,
+              "false_negative": 5,
+              "true_positive": 29
+            },
+            "sample_counts": {
+              "total": 48,
+              "positive_count": 34,
+              "negative_count": 14,
+              "positive_proportion": 0.7083
+            },
+            "positive_class_label": "CAD",
+            "fold": 4
+          },
+          {
+            "accuracy": 0.75,
+            "precision": 0.8929,
+            "recall": 0.7353,
+            "f1": 0.8065,
+            "roc_auc": 0.8739,
+            "confusion_matrix": {
+              "true_negative": 11,
+              "false_positive": 3,
+              "false_negative": 9,
+              "true_positive": 25
+            },
+            "sample_counts": {
+              "total": 48,
+              "positive_count": 34,
+              "negative_count": 14,
+              "positive_proportion": 0.7083
+            },
+            "positive_class_label": "CAD",
+            "fold": 5
+          }
+        ],
+        "positive_class_label": "CAD"
+      },
+      "held_out_test_metrics": {
+        "accuracy": 0.8361,
+        "precision": 0.9024,
+        "recall": 0.8605,
+        "f1": 0.881,
+        "roc_auc": 0.8889,
+        "confusion_matrix": {
+          "true_negative": 14,
+          "false_positive": 4,
+          "false_negative": 6,
+          "true_positive": 37
+        },
+        "sample_counts": {
+          "total": 61,
+          "positive_count": 43,
+          "negative_count": 18,
+          "positive_proportion": 0.7049
+        },
+        "positive_class_label": "CAD"
+      },
+      "artifact_path": "backend/artifacts/cath_pipeline.joblib"
+    },
+    "LAD": {
+      "target_description": "Left Anterior Descending Artery Stenosis (>=50%)",
+      "positive_class": "Stenotic",
+      "negative_class": "Normal",
+      "selected_model": "random_forest",
+      "selection_rationale": "Superior cross-validation ROC-AUC (0.8011) evaluated across 5-fold stratified CV on training partition.",
+      "candidates_cv_comparison": {
+        "logistic_regression": {
+          "mean_roc_auc": 0.7653,
+          "std_roc_auc": 0.0355,
+          "mean_f1": 0.724,
+          "mean_accuracy": 0.6901
+        },
+        "random_forest": {
+          "mean_roc_auc": 0.8011,
+          "std_roc_auc": 0.0442,
+          "mean_f1": 0.7718,
+          "mean_accuracy": 0.7272
+        }
+      },
+      "training_cv_metrics": {
+        "n_folds": 5,
+        "mean_roc_auc": 0.8011,
+        "std_roc_auc": 0.0442,
+        "mean_f1": 0.7718,
+        "std_f1": 0.0465,
+        "mean_accuracy": 0.7272,
+        "std_accuracy": 0.0447,
+        "mean_precision": 0.749,
+        "std_precision": 0.0342,
+        "mean_recall": 0.801,
+        "std_recall": 0.087,
+        "fold_details": [
+          {
+            "accuracy": 0.7551,
+            "precision": 0.7576,
+            "recall": 0.8621,
+            "f1": 0.8065,
+            "roc_auc": 0.8086,
+            "confusion_matrix": {
+              "true_negative": 12,
+              "false_positive": 8,
+              "false_negative": 4,
+              "true_positive": 25
+            },
+            "sample_counts": {
+              "total": 49,
+              "positive_count": 29,
+              "negative_count": 20,
+              "positive_proportion": 0.5918
+            },
+            "positive_class_label": "Stenotic",
+            "fold": 1
+          },
+          {
+            "accuracy": 0.7143,
+            "precision": 0.7333,
+            "recall": 0.7857,
+            "f1": 0.7586,
+            "roc_auc": 0.7364,
+            "confusion_matrix": {
+              "true_negative": 13,
+              "false_positive": 8,
+              "false_negative": 6,
+              "true_positive": 22
+            },
+            "sample_counts": {
+              "total": 49,
+              "positive_count": 28,
+              "negative_count": 21,
+              "positive_proportion": 0.5714
+            },
+            "positive_class_label": "Stenotic",
+            "fold": 2
+          },
+          {
+            "accuracy": 0.6458,
+            "precision": 0.7037,
+            "recall": 0.6786,
+            "f1": 0.6909,
+            "roc_auc": 0.7696,
+            "confusion_matrix": {
+              "true_negative": 12,
+              "false_positive": 8,
+              "false_negative": 9,
+              "true_positive": 19
+            },
+            "sample_counts": {
+              "total": 48,
+              "positive_count": 28,
+              "negative_count": 20,
+              "positive_proportion": 0.5833
+            },
+            "positive_class_label": "Stenotic",
+            "fold": 3
+          },
+          {
+            "accuracy": 0.7708,
+            "precision": 0.7429,
+            "recall": 0.9286,
+            "f1": 0.8254,
+            "roc_auc": 0.8625,
+            "confusion_matrix": {
+              "true_negative": 11,
+              "false_positive": 9,
+              "false_negative": 2,
+              "true_positive": 26
+            },
+            "sample_counts": {
+              "total": 48,
+              "positive_count": 28,
+              "negative_count": 20,
+              "positive_proportion": 0.5833
+            },
+            "positive_class_label": "Stenotic",
+            "fold": 4
+          },
+          {
+            "accuracy": 0.75,
+            "precision": 0.8077,
+            "recall": 0.75,
+            "f1": 0.7778,
+            "roc_auc": 0.8286,
+            "confusion_matrix": {
+              "true_negative": 15,
+              "false_positive": 5,
+              "false_negative": 7,
+              "true_positive": 21
+            },
+            "sample_counts": {
+              "total": 48,
+              "positive_count": 28,
+              "negative_count": 20,
+              "positive_proportion": 0.5833
+            },
+            "positive_class_label": "Stenotic",
+            "fold": 5
+          }
+        ],
+        "positive_class_label": "Stenotic"
+      },
+      "held_out_test_metrics": {
+        "accuracy": 0.7705,
+        "precision": 0.7895,
+        "recall": 0.8333,
+        "f1": 0.8108,
+        "roc_auc": 0.7911,
+        "confusion_matrix": {
+          "true_negative": 17,
+          "false_positive": 8,
+          "false_negative": 6,
+          "true_positive": 30
+        },
+        "sample_counts": {
+          "total": 61,
+          "positive_count": 36,
+          "negative_count": 25,
+          "positive_proportion": 0.5902
+        },
+        "positive_class_label": "Stenotic"
+      },
+      "artifact_path": "backend/artifacts/lad_pipeline.joblib"
+    },
+    "LCX": {
+      "target_description": "Left Circumflex Artery Stenosis (>=50%)",
+      "positive_class": "Stenotic",
+      "negative_class": "Normal",
+      "selected_model": "random_forest",
+      "selection_rationale": "Superior cross-validation ROC-AUC (0.7070) evaluated across 5-fold stratified CV on training partition.",
+      "candidates_cv_comparison": {
+        "logistic_regression": {
+          "mean_roc_auc": 0.6676,
+          "std_roc_auc": 0.0813,
+          "mean_f1": 0.5678,
+          "mean_accuracy": 0.6403
+        },
+        "random_forest": {
+          "mean_roc_auc": 0.707,
+          "std_roc_auc": 0.0428,
+          "mean_f1": 0.5452,
+          "mean_accuracy": 0.6775
+        }
+      },
+      "training_cv_metrics": {
+        "n_folds": 5,
+        "mean_roc_auc": 0.707,
+        "std_roc_auc": 0.0428,
+        "mean_f1": 0.5452,
+        "std_f1": 0.061,
+        "mean_accuracy": 0.6775,
+        "std_accuracy": 0.0438,
+        "mean_precision": 0.6176,
+        "std_precision": 0.0837,
+        "mean_recall": 0.4948,
+        "std_recall": 0.0788,
+        "fold_details": [
+          {
+            "accuracy": 0.7551,
+            "precision": 0.7692,
+            "recall": 0.5263,
+            "f1": 0.625,
+            "roc_auc": 0.7719,
+            "confusion_matrix": {
+              "true_negative": 27,
+              "false_positive": 3,
+              "false_negative": 9,
+              "true_positive": 10
+            },
+            "sample_counts": {
+              "total": 49,
+              "positive_count": 19,
+              "negative_count": 30,
+              "positive_proportion": 0.3878
+            },
+            "positive_class_label": "Stenotic",
+            "fold": 1
+          },
+          {
+            "accuracy": 0.6531,
+            "precision": 0.5714,
+            "recall": 0.4211,
+            "f1": 0.4848,
+            "roc_auc": 0.7053,
+            "confusion_matrix": {
+              "true_negative": 24,
+              "false_positive": 6,
+              "false_negative": 11,
+              "true_positive": 8
+            },
+            "sample_counts": {
+              "total": 49,
+              "positive_count": 19,
+              "negative_count": 30,
+              "positive_proportion": 0.3878
+            },
+            "positive_class_label": "Stenotic",
+            "fold": 2
+          },
+          {
+            "accuracy": 0.6667,
+            "precision": 0.5714,
+            "recall": 0.6316,
+            "f1": 0.6,
+            "roc_auc": 0.7078,
+            "confusion_matrix": {
+              "true_negative": 20,
+              "false_positive": 9,
+              "false_negative": 7,
+              "true_positive": 12
+            },
+            "sample_counts": {
+              "total": 48,
+              "positive_count": 19,
+              "negative_count": 29,
+              "positive_proportion": 0.3958
+            },
+            "positive_class_label": "Stenotic",
+            "fold": 3
+          },
+          {
+            "accuracy": 0.625,
+            "precision": 0.5333,
+            "recall": 0.4211,
+            "f1": 0.4706,
+            "roc_auc": 0.637,
+            "confusion_matrix": {
+              "true_negative": 22,
+              "false_positive": 7,
+              "false_negative": 11,
+              "true_positive": 8
+            },
+            "sample_counts": {
+              "total": 48,
+              "positive_count": 19,
+              "negative_count": 29,
+              "positive_proportion": 0.3958
+            },
+            "positive_class_label": "Stenotic",
+            "fold": 4
+          },
+          {
+            "accuracy": 0.6875,
+            "precision": 0.6429,
+            "recall": 0.4737,
+            "f1": 0.5455,
+            "roc_auc": 0.7132,
+            "confusion_matrix": {
+              "true_negative": 24,
+              "false_positive": 5,
+              "false_negative": 10,
+              "true_positive": 9
+            },
+            "sample_counts": {
+              "total": 48,
+              "positive_count": 19,
+              "negative_count": 29,
+              "positive_proportion": 0.3958
+            },
+            "positive_class_label": "Stenotic",
+            "fold": 5
+          }
+        ],
+        "positive_class_label": "Stenotic"
+      },
+      "held_out_test_metrics": {
+        "accuracy": 0.6885,
+        "precision": 0.6087,
+        "recall": 0.5833,
+        "f1": 0.5957,
+        "roc_auc": 0.732,
+        "confusion_matrix": {
+          "true_negative": 28,
+          "false_positive": 9,
+          "false_negative": 10,
+          "true_positive": 14
+        },
+        "sample_counts": {
+          "total": 61,
+          "positive_count": 24,
+          "negative_count": 37,
+          "positive_proportion": 0.3934
+        },
+        "positive_class_label": "Stenotic"
+      },
+      "artifact_path": "backend/artifacts/lcx_pipeline.joblib"
+    },
+    "RCA": {
+      "target_description": "Right Coronary Artery Stenosis (>=50%)",
+      "positive_class": "Stenotic",
+      "negative_class": "Normal",
+      "selected_model": "logistic_regression",
+      "selection_rationale": "Superior cross-validation ROC-AUC (0.7261) evaluated across 5-fold stratified CV on training partition.",
+      "candidates_cv_comparison": {
+        "logistic_regression": {
+          "mean_roc_auc": 0.7261,
+          "std_roc_auc": 0.0935,
+          "mean_f1": 0.5764,
+          "mean_accuracy": 0.6607
+        },
+        "random_forest": {
+          "mean_roc_auc": 0.7241,
+          "std_roc_auc": 0.0613,
+          "mean_f1": 0.5265,
+          "mean_accuracy": 0.661
+        }
+      },
+      "training_cv_metrics": {
+        "n_folds": 5,
+        "mean_roc_auc": 0.7261,
+        "std_roc_auc": 0.0935,
+        "mean_f1": 0.5764,
+        "std_f1": 0.0631,
+        "mean_accuracy": 0.6607,
+        "std_accuracy": 0.051,
+        "mean_precision": 0.5445,
+        "std_precision": 0.0638,
+        "mean_recall": 0.6146,
+        "std_recall": 0.0733,
+        "fold_details": [
+          {
+            "accuracy": 0.6939,
+            "precision": 0.5652,
+            "recall": 0.7222,
+            "f1": 0.6341,
+            "roc_auc": 0.8477,
+            "confusion_matrix": {
+              "true_negative": 21,
+              "false_positive": 10,
+              "false_negative": 5,
+              "true_positive": 13
+            },
+            "sample_counts": {
+              "total": 49,
+              "positive_count": 18,
+              "negative_count": 31,
+              "positive_proportion": 0.3673
+            },
+            "positive_class_label": "Stenotic",
+            "fold": 1
+          },
+          {
+            "accuracy": 0.7347,
+            "precision": 0.65,
+            "recall": 0.6842,
+            "f1": 0.6667,
+            "roc_auc": 0.8088,
+            "confusion_matrix": {
+              "true_negative": 23,
+              "false_positive": 7,
+              "false_negative": 6,
+              "true_positive": 13
+            },
+            "sample_counts": {
+              "total": 49,
+              "positive_count": 19,
+              "negative_count": 30,
+              "positive_proportion": 0.3878
+            },
+            "positive_class_label": "Stenotic",
+            "fold": 2
+          },
+          {
+            "accuracy": 0.5833,
+            "precision": 0.4545,
+            "recall": 0.5556,
+            "f1": 0.5,
+            "roc_auc": 0.5963,
+            "confusion_matrix": {
+              "true_negative": 18,
+              "false_positive": 12,
+              "false_negative": 8,
+              "true_positive": 10
+            },
+            "sample_counts": {
+              "total": 48,
+              "positive_count": 18,
+              "negative_count": 30,
+              "positive_proportion": 0.375
+            },
+            "positive_class_label": "Stenotic",
+            "fold": 3
+          },
+          {
+            "accuracy": 0.6458,
+            "precision": 0.5263,
+            "recall": 0.5556,
+            "f1": 0.5405,
+            "roc_auc": 0.7241,
+            "confusion_matrix": {
+              "true_negative": 21,
+              "false_positive": 9,
+              "false_negative": 8,
+              "true_positive": 10
+            },
+            "sample_counts": {
+              "total": 48,
+              "positive_count": 18,
+              "negative_count": 30,
+              "positive_proportion": 0.375
+            },
+            "positive_class_label": "Stenotic",
+            "fold": 4
+          },
+          {
+            "accuracy": 0.6458,
+            "precision": 0.5263,
+            "recall": 0.5556,
+            "f1": 0.5405,
+            "roc_auc": 0.6537,
+            "confusion_matrix": {
+              "true_negative": 21,
+              "false_positive": 9,
+              "false_negative": 8,
+              "true_positive": 10
+            },
+            "sample_counts": {
+              "total": 48,
+              "positive_count": 18,
+              "negative_count": 30,
+              "positive_proportion": 0.375
+            },
+            "positive_class_label": "Stenotic",
+            "fold": 5
+          }
+        ],
+        "positive_class_label": "Stenotic"
+      },
+      "held_out_test_metrics": {
+        "accuracy": 0.7049,
+        "precision": 0.619,
+        "recall": 0.5652,
+        "f1": 0.5909,
+        "roc_auc": 0.7334,
+        "confusion_matrix": {
+          "true_negative": 30,
+          "false_positive": 8,
+          "false_negative": 10,
+          "true_positive": 13
+        },
+        "sample_counts": {
+          "total": 61,
+          "positive_count": 23,
+          "negative_count": 38,
+          "positive_proportion": 0.377
+        },
+        "positive_class_label": "Stenotic"
+      },
+      "artifact_path": "backend/artifacts/rca_pipeline.joblib"
+    }
+  }
+}

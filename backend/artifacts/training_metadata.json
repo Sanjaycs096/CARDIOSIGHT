@@ -1,0 +1,22 @@
+{
+  "pipeline_version": "1.0.0",
+  "timestamp_utc": "2026-10-13T18:07:52.060426",
+  "random_seed": 42,
+  "test_size": 0.2,
+  "cv_splits": 5,
+  "dataset_rows": 303,
+  "selected_feature_set": "Set_A_BMI_Only",
+  "feature_count": 49,
+  "saved_artifacts": {
+    "Cath": "backend\\artifacts\\cath_pipeline.joblib",
+    "LAD": "backend\\artifacts\\lad_pipeline.joblib",
+    "LCX": "backend\\artifacts\\lcx_pipeline.joblib",
+    "RCA": "backend\\artifacts\\rca_pipeline.joblib"
+  },
+  "environment": {
+    "python_version": "3.10.0",
+    "scikit_learn_version": "1.5.0",
+    "platform": "Windows-10-10.0.26300-SP0"
+  },
+  "clinical_safeguard": "EXPERIMENTAL EDUCATIONAL PROTOTYPE ONLY. Not clinically validated for diagnosis or treatment decisions."
+}
